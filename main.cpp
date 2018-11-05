@@ -20,16 +20,7 @@ class perkusja : public instrument {
 };
 int main()
 {
-    instrument I;
-    I.graj();
-    gitara G;
-    G.graj();
-    perkusja P;
-    P.graj();
-    instrument &cos1=G;
-    cos1.graj();
-	instrument &cos2=P;
-    cos2.graj();
+	//poprawki
     instrument *w=new gitara;
     w->graj();
     delete w;
